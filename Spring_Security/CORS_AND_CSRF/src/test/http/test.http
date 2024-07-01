@@ -1,0 +1,14 @@
+### 회원가입 테스트
+POST http://localhost:8080/register
+Content-Type: application/json
+
+{
+  "name": "aaaa",
+  "email": "aaa@aaa.aaa",
+  "mobileNumber": "248146546549",
+  "pwd": "12345",
+  "role": "user"
+}
+
+###
+GET localhost:8080/notices

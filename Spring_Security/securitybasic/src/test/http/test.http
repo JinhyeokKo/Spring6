@@ -1,0 +1,9 @@
+### 회원가입 테스트
+POST http://localhost:8080/register
+Content-Type: application/json
+
+{
+  "email": "xxx@yyy.zzz",
+  "pwd": "1234",
+  "role": "user"
+}
